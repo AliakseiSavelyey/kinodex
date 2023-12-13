@@ -31,7 +31,7 @@ const Movies = () => {
               <h3 className={s.movieTitle}>
                 {e.nameRu ? e.nameRu : e.nameOriginal}
               </h3>
-              <ul>{e.genres && e.genres.map((el) => <li>{el.genre}</li>)}</ul>
+              <ul className={s.catigoriesList}>{e.genres && e.genres.map((el) => <li>{el.genre}</li>)}</ul>
               <img
                 src={e.posterUrlPreview}
                 alt={e.nameRu}
