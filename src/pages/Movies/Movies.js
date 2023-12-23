@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import Loading from '../Loading/Loading';
+import Loading from '../../Loading/Loading';
 import s from './Movies.module.css';
 const Movies = () => {
   const [movies, setMovies] = useState(null);
@@ -27,11 +27,13 @@ const Movies = () => {
       <ul className={s.moviesList}>
         {movies ? (
           movies.map((e) => (
-            <li key={e.kinopoiskId} className={s.movie}>
+            <li className={s.movie} key={e.kinopoiskId}>
               <h3 className={s.movieTitle}>
                 {e.nameRu ? e.nameRu : e.nameOriginal}
               </h3>
-              <ul className={s.catigoriesList}>{e.genres && e.genres.map((el) => <li>{el.genre}</li>)}</ul>
+              <ul className={s.catigoriesList}>
+                {e.genres && e.genres.map((el) => <li>{el.genre}</li>)}
+              </ul>
               <img
                 src={e.posterUrlPreview}
                 alt={e.nameRu}
