@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/kinodex/static/css/main.60438a02.css",
-    "main.js": "/kinodex/static/js/main.2356ef61.js",
+    "main.css": "/kinodex/static/css/main.74663a33.css",
+    "main.js": "/kinodex/static/js/main.d91ceaf8.js",
     "index.html": "/kinodex/index.html",
-    "main.60438a02.css.map": "/kinodex/static/css/main.60438a02.css.map",
-    "main.2356ef61.js.map": "/kinodex/static/js/main.2356ef61.js.map"
+    "main.74663a33.css.map": "/kinodex/static/css/main.74663a33.css.map",
+    "main.d91ceaf8.js.map": "/kinodex/static/js/main.d91ceaf8.js.map"
   },
   "entrypoints": [
-    "static/css/main.60438a02.css",
-    "static/js/main.2356ef61.js"
+    "static/css/main.74663a33.css",
+    "static/js/main.d91ceaf8.js"
   ]
 }
