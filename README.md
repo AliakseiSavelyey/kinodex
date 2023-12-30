@@ -1,1 +1,1 @@
-ReactJS project, free kinodex for Kinopoisk unofficial API
+React project, free kinodex for Kinopoisk unofficial API
